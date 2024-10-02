@@ -226,7 +226,7 @@ zi_annex_meta_plugins_config_map+=(
   PZTM::utility       "$_std"
 
   # Oh-My-Zsh Library
-  OMZ::lib                    "$_std svn multisrc'{git,clipboard,history,completion,prompt_info_functions,theme-and-appearance,vcs_info}.zsh' pick'/dev/null'"
+  OMZ::lib                    "$_std svn multisrc'{clipboard,compfix,completion,correction,directories,functions,git,grep,history,key-bindings,prompt_info_functions,spectrum,termsupport,vcs_info}.zsh' pick'/dev/null'"
   OMZL::git                   "$_std"
   OMZL::history               "$_std"
   OMZL::vcs_info              "$_std"
